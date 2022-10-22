@@ -16,7 +16,7 @@ http {
 
 	gzip on;
 
-  proxy_cache_path /tmp/nginxcache levels=1:2 keys_zone=tmpcache:1000m;
+        proxy_cache_path C:/temp/nginxcache levels=1:2 keys_zone=tmpcache:1000m;
 	
 	server {
         listen       80;
